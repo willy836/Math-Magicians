@@ -13,7 +13,7 @@ class Calculator extends Component {
         <div className="grid-item">AC</div>
         <div className="grid-item">+/-</div>
         <div className="grid-item">%</div>
-        <div className="grid-item orange-bg">/</div>
+        <div className="grid-item orange-bg">÷</div>
         <div className="grid-item">7</div>
         <div className="grid-item">8</div>
         <div className="grid-item">9</div>
