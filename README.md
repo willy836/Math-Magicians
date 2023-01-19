@@ -36,13 +36,12 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-**[your_project__name]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-    - Make simple calculations
-    - Read a random math-related quote
+**[your_project__name]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: - Make simple calculations - Read a random math-related quote
 
 ## 🛠 Built With <a name="built-with">React</a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
     - JSX
     - CSS
     - Webpack
@@ -82,7 +81,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://math-magicians-tfgn.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,23 +93,15 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-    - IDE(Code editor) eg VScode
-    - git
+In order to run this project you need: - IDE(Code editor) eg VScode - git
 
 ### Setup
 
-Clone this repository to your desired folder:
-    - git clone https://github.com/willy836/Math-Magicians.git
-    - cd Math-Magicians/
-    - npm install
-    - npm run start
+Clone this repository to your desired folder: - git clone https://github.com/willy836/Math-Magicians.git - cd Math-Magicians/ - npm install - npm run start
 
 ### Install
 
-Install this project with:
-    - install necessary dependencies (npm install)
-
+Install this project with: - install necessary dependencies (npm install)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
