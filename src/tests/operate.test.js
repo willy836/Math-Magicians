@@ -28,11 +28,11 @@ describe('Test operate function', () => {
   });
   it('Divide two numbers', () => {
     const obj = {
-      total: '12',
+      total: '15',
       next: '3',
       operation: '÷',
     };
-    expect(operate(obj.total, obj.next, obj.operation)).toBe('4');
+    expect(operate(obj.total, obj.next, obj.operation)).toBe('5');
   });
   it('Return modulo of two numbers', () => {
     const obj = {

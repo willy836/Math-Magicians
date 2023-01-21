@@ -1,49 +1,49 @@
 // const calculate = require('../logic/calculate');
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
-describe("Test calculate function", () => {
-  it("Test when AC button is clicked ", () => {
-    const obj = { total: null, next: null, operation: null };
-    const buttonName = "AC";
+describe('Test calculate function', () => {
+  it('Test when AC button is clicked to clear screen', () => {
+    const obj = { total: '5', next: '5', operation: '+' };
+    const buttonName = 'AC';
     expect(calculate(obj, buttonName)).toEqual({
       total: null,
       next: null,
       operation: null,
     });
   });
-  it("Test adding two numbers then click =", () => {
+  it('Test adding two numbers then click =', () => {
     const obj = {
-      total: "0",
-      next: "5",
-      operation: "+",
+      total: '0',
+      next: '5',
+      operation: '+',
     };
-    const buttonName = "=";
+    const buttonName = '=';
     expect(calculate(obj, buttonName)).toEqual({
-      total: "5",
+      total: '5',
       next: null,
       operation: null,
     });
   });
-  it("Test adding three or more numbers", () => {
+  it('Test adding three or more numbers', () => {
     const obj = {
-      total: "5",
-      next: "5",
-      operation: "+",
+      total: '5',
+      next: '5',
+      operation: '+',
     };
-    const buttonName = "+";
+    const buttonName = '+';
     expect(calculate(obj, buttonName)).toEqual({
-      total: "10",
+      total: '10',
       next: null,
-      operation: "+",
+      operation: '+',
     });
   });
-  it("Test button is 0 and next is 0 and no operation is clicked", () => {
+  it('Test button is 0 and next is 0 and no operation is clicked', () => {
     const obj = {
       total: 0,
       next: 0,
       operation: null,
     };
-    const buttonName = "=";
+    const buttonName = '=';
     expect(calculate(obj, buttonName)).toEqual({});
   });
 });
